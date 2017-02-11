@@ -1,0 +1,13 @@
+<section>
+	<article>
+		<h1>Users List</h1>
+		{%for u in users%}
+		<a href="{{u.get_absolute_url}}">
+			<img  width="100px"src="{{u.profile.img.url}}">
+		</a>
+		<h4>{{u.get_full_name}}</h4>
+		<h4>{{u.username}}</h4>
+		{%endfor%}
+
+	</article>
+</section>
