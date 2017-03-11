@@ -7,7 +7,7 @@ ADMINS = (
 		('oswaldinho', 'os@fixter.org'), 
 	)
 
-ALLOWED_HOSTS = ['eldominio.com', 'otrodominio.com']
+ALLOWED_HOSTS = ['oswaldo.actosoftcommunity.com']
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
